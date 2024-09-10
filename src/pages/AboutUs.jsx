@@ -46,7 +46,7 @@ const AboutUs = () => {
               <div className='text-xs sm:text-md text-[var(--primary-color)] my-3'>Are you Wondering...</div>
               <div className='text-2xl sm:text-5xl my-2'>Why to Choose Us?</div>
             </div>
-            <div className='w-full flex flex-col h-[400vh] justify-between sm:h-4/5 sm:grid sm:grid-cols-3 px-[10%] sm:grid-rows-2 sm:gap-14 '>
+            <div className='mt-6 w-full flex flex-col h-[400vh] justify-between sm:h-4/5 sm:grid sm:grid-cols-3 px-[10%] sm:grid-rows-2 sm:gap-14 '>
               <div className='flex flex-col justify-around items-center sm:h-full'>
                 <BookCopy className='w-10 h-10 text-blue-600'/>
                 <div className='font-MerriWeatherBold text-md sm:text-xl w-2/5 sm:w-1/2 text-center'>Quality Education</div>
