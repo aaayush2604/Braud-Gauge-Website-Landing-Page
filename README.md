@@ -1,8 +1,17 @@
-# React + Vite
+##Installation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 1.Clone the Repository on your devices
+```bash
+  git clone https://github.com/aaayush2604/Braud-Gauge-Website-Landing-Page
+```
+# 2. Go to the directory and run 
+```bash
+npm install
+```
 
-Currently, two official plugins are available:
+# 3. Now run 
+```
+npm run dev
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
