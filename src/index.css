@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+}
+
+.backgroundItem{
+    z-index:10;
+}
+
+.stackItem{
+    z-index:30;
+}
+
+.illustration{
+    z-index:20
+}
+
+
+@font-face{
+    font-family: 'MerriWeatherBold';
+    src: url('./Merriweather/Merriweather-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'MerriWeatherLightItalic';
+    src: url('./Merriweather/Merriweather-LightItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:'MerriWeatherLight';
+    src:url('./Merriweather/Merriweather-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.custom-bullet li::marker {
+    color: var(--primary-color); /* Change this to your desired bullet color */
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+  
+
+:root{
+    --primary-color:#f56946;
+    --secondary-color:#ff6741;
+    --third-color:#ffa501;
+    --fourth-color:#d8d9d8
+}
