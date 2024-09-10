@@ -15,7 +15,7 @@ const Footer = () => {
                 </p>
                 </div>
                 <div className="flex items-center justify-center">
-                    <div className="flex space-x-8">
+                    <div className="flex space-x-6">
                         <Link href='#' className="text-sm text-muted-foreground hover:text-gray-400">Terms</Link>
                         <Link href='#' className="text-sm text-muted-foreground hover:text-gray-400">Privacy Policy</Link>
                         <Link href='#' className="text-sm text-muted-foreground hover:text-gray-400">Cookie Policy</Link>

@@ -13,9 +13,10 @@ const AboutUs = () => {
       <MaxWidthWrapper className='h-full w-full flex'>
         <div className='h-full w-full sm:w-1/2'>
           <div className='h-1/5 font-MerriWeatherBold text-4xl flex justify-center items-end text-white'>About Us</div>
-          {!readMore? <div className='h-4/5 flex flex-col justify-center font-MerriWeatherLight items-center text-center text-white'>
+          {!readMore? <div className=' h-1/2 sm:h-4/5 flex flex-col justify-center font-MerriWeatherLight items-center text-center text-white text-xs sm:text-md'>
             <p>Braud Gauge is a pioneering online learning platform dedicated to empowering kids to reach their full potential. Our mission is to provide accessible, engaging, and affordable education that sparks curiosity, fosters critical thinking, and prepares young learners for a bright future</p>
             <p className='underline' onClick={()=>setReadMore(true)}>Read More</p>
+            <img src="/chess2.svg" alt="" className='absolute top-96 w-4/5 sm:hidden' />
             
           </div>
           :
@@ -29,7 +30,12 @@ const AboutUs = () => {
         </div>
         <div className='h-full sm:flex flex-col relative justify-center items-center w-1/2 hidden '>
           <div className='h-[90%] flex flex-col relative justify-end bg-blue-600 w-[230px] rounded-tr-[70px] rounded-bl-[70px]'>
-            <img src="aboutus.png" alt="" className='relative h-[90%] rounded-bl-[70px]'/>
+            <img src="aboutus.png" alt="" className='relative h-[90%] rounded-bl-[70px] z-[200]'/>
+          </div>
+          <div className='absolute illustration h-3/5 w-full'>
+          <img src='/wQueen.png' className='hidden sm:block relative top-[-90px] left-[180px]  z-50'></img>
+          <img src="/bKing.png" className='hidden sm:block relative top-[-600px] left-[150px] h-[80vh] z-40' alt="" />
+          <img src="/wKing.png" className='hidden sm:block relative top-[-1050px] left-[-170px] h-[80vh] z-40' alt="" />
           </div>
         </div>
       </MaxWidthWrapper>
